@@ -12,10 +12,12 @@ A collection of BASH scripts I created for fun!..
     ```bash
     cd BASH-scripts
     ```
+    
 3.Run the script:
-     ```bash
-     ./script-name
-     ```
+   ```bash
+   ./script-name
+   ```
+     
 4.(optional) If you want you can directly copy these scripts to your system:
    ```bash
    sudo cp -pv !(.git|.gitignore|README.md) /usr/local/bin
