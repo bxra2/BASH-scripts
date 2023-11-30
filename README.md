@@ -13,11 +13,11 @@ A collection of BASH scripts I created for fun!..
     cd BASH-scripts
     ```
 3.Run the script:
-  ```bash
-  ./script-name
-  ```
+     ```bash
+     ./script-name
+     ```
 4.(optional) If you want you can directly copy these scripts to your system:
-```bash
-sudo cp -pv !(.git|.gitignore|README.md|LICENSE|*.sh) /usr/local/bin
-```
+   ```bash
+   sudo cp -pv !(.git|.gitignore|README.md) /usr/local/bin
+   ```
 After completing this steps, you should be able to execute the scripts from anywhere in the terminal by simply typing their names.
