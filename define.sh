@@ -22,5 +22,4 @@ if [ -z "$CONTENT" ]; then
 else
  
   echo $CONTENT
-fi
-# | sed 's/\./\.\n/g' | head -n 2   
+fi 
