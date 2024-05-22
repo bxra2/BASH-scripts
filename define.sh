@@ -1,6 +1,6 @@
 #!/bin/sh
 
-HELP='This script fetches the definition of a word from dictionary.com'
+HELP='This script fetches the definition of a word from merriam-webster.com'
 WORD="$1"
 URL="https://www.merriam-webster.com/dictionary/$WORD"
 
