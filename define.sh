@@ -21,5 +21,5 @@ if [ -z "$CONTENT" ]; then
     echo "Make sure your spelling is correct!"
 else
  
-  echo $CONTENT
+  echo $CONTENT | sed 's/:/\n/g'
 fi 
