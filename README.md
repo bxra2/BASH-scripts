@@ -1,25 +1,16 @@
 # BASH-scripts
 
-A collection of BASH scripts I created for fun!..
+A collection of utility BASH scripts I created!..
 
 ## Setup
-1. Clone the repository to your local machine using the following command:
+1. Clone the repository to your local machine in ~/scripts using the following command:
    ```bash
-   git clone https://github.com/baraaashraf/BASH-scripts.git
+   git clone https://github.com/baraaashraf/BASH-scripts .
    ```
    
-2. Navigate to the script's directory:
-    ```bash
-    cd BASH-scripts
-    ```
-    
-3.Run the script:
+2.Run the script linktobin to allow the scripts to run globally:
    ```bash
-   ./script-name
+   ./linktobin
    ```
-     
-4.(optional) If you want you can directly copy these scripts to your system:
-   ```bash
-   sudo cp -pv !(.git|.gitignore|README.md) /usr/local/bin
-   ```
-After completing this steps, you should be able to execute the scripts from anywhere in the terminal by simply typing their names.
+
+After completing these steps, you should be able to execute the scripts from anywhere in the terminal by simply typing their names.

@@ -1,0 +1,7 @@
+mkdir -p ~/.local/bin
+
+for f in ~/scripts/*.sh; do
+  [ -f "$f" ] || continue
+  name="$(basename "$f" .sh)"
+  ln -sf "$f" ~/.local/bin/"$name"
+done
